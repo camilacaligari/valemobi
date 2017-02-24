@@ -1,0 +1,269 @@
+html{
+	height:100%;
+}
+
+body{ 
+	background-color: #75D4DA;
+	min-height: 100%;
+	max-height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.card{
+	width: 1012px;
+	height: 625px;
+	background-color:#fff;
+	display:block;
+	margin: 10% auto;
+  	top: 50%;
+  	left: 50%;
+}
+
+.col-branca{
+	padding-left: 50px;
+}
+
+.col-esq{
+	float: left;
+}
+
+.cab-esq{
+	padding-top: 15px;
+}
+
+.tipo{
+	color: #FFD522;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 12pt;
+	margin-bottom: 8px;
+
+}
+
+.titulo{
+	color:#2D2E31;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 34pt;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.codigo{
+	color:#2D2E31;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 9pt;
+	margin-top: 3px;
+}
+
+.col-dir{
+	float: right;
+	margin-top: 48px;
+	padding-right: 15px;
+
+}
+
+.preco{
+	color:#2D2E31;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 20pt;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.qtd-tag{
+	color: #FFD522;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 12pt;
+	margin-bottom: 8px;
+	float: left;
+}
+
+.qtd{
+	color:#2D2E31;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	margin-top: 3px;
+	float:left;
+	margin-left: 10px;
+}
+
+.imagem{
+	display: block;
+	margin-left: 100px;
+	padding-top: 150px;
+}
+
+.col-preta{
+	width: 506px;
+	height: 626px;
+	z-index: 1;
+	background-color: #2D2E31;
+}
+
+h1{
+	color: #FFF;
+	font-family: 'Playfair Display', serif;
+	font-size: 40pt;
+	font-weight: 400;
+	margin: 50px 20px 130px 25px;
+}
+
+form{
+	margin-left: 25px;
+	padding-right: 30px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-size: 9pt;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff; 
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-size: 9pt;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-size: 9pt;
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-size: 9pt;
+}
+
+input{
+	background-color: transparent;
+	border-style: none;
+	border-bottom: 2px solid #FFD522;
+	width: 100%;
+	color: #fff;
+}
+
+.tp-mercadoria{
+	outline-style: none;
+	border-style: none;
+	background-color: transparent;
+	border-bottom: 2px solid #FFD522;
+	color:#fff;
+	width: 100%;
+	font-family: 'Playfair Display', serif;
+   font-style: italic;
+	font-size: 9pt;
+}
+
+.ipt-espaco{
+	padding-top: 40px;
+}
+
+label{
+	font-family: 'Playfair Display', serif;
+   	font-style: italic;
+   	color: #fff;
+   	margin-right: 10px;
+
+}
+
+span{
+	font-family: 'Playfair Display', serif;
+	color:#FFD522;
+}
+
+#qt-mercadoria{
+	width:22%;
+	text-align: center;
+}
+
+.btn-increment{
+	width: 30px;
+	color: #FFD522;
+	border-style: none;
+}
+
+.radio-btn{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.cadastrar{
+	margin-top: 80px;
+	width:25%;
+	background-color: #FFD522;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#2D2E31;
+	font-size: 13pt;
+	border-radius: 100px;
+	padding: 5px;
+	border-style: none;
+	margin-left: 10px;
+
+}
+
+#btn-cadastrar{
+	color:#2D2E31;
+	border-style: none;
+}
+
+table th{
+	color: #2D2E31;
+	font-family: 'Playfair Display', serif;
+}
+
+table tr{
+	color: #2D2E31;
+}
+
+#lista table{
+	width: 800px;
+	margin-left: 100px;
+}
+
+.btn-index{
+	margin-top: 80px;
+	width:60%;
+	background-color: #FFD522;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#2D2E31;
+	font-size: 10pt;
+	border-radius: 100px;
+	padding: 5px;
+	border-style: none;
+	float: right;
+	margin-top: 73px;
+	margin-right: 100px;
+
+}
+
+#btn-index{
+	color:#2D2E31;
+	border-style: none;
+}
+
+.ls-titulo{
+	margin-left: 100px;
+	color: #2D2E31;
+}
